@@ -3,7 +3,7 @@
     :data="userList"
     border
     style="width: 100%;"
-    row-key="name"
+    row-key="id"
     default-expand-all
     :tree-props="{children: 'children', hasChildren: 'hasChildren'}">
     <el-table-column
