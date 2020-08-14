@@ -6,7 +6,6 @@
       :visible.sync="dialogVisible"
       width="30%">
       <div class="card-body">
-
         <!-- Имя и фамилия -->
         <div class="form-error-messages" v-if="errorForm.length !== 0">
           <ul class="error">
@@ -26,6 +25,7 @@
               placeholder="Алексей Алексеевич"
               suffix-icon="el-icon-user-solid"
               v-model="formData.name">
+              <!-- Что за херня -->
             </el-input>
           </div>
         </div>
