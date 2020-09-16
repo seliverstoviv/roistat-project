@@ -1,4 +1,4 @@
-!()[rs-project.gif]
+![](rs-project.gif)
 
 ## Тестовое задание для компании RoiStat
 
